@@ -1,9 +1,5 @@
 # coding: UTF-8
-"""
-Created on Thu Jun  4 15:58:21 2020
 
-@author: PAN Fei
-"""
 
 import collections
 import json
@@ -13,7 +9,7 @@ import pprint
 
 
 # 标注文件的路径
-annotated_dir = r"G:\carton_dataset_v3\吴胜凯v3"
+annotated_dir = r"G:\carton_dataset_v3"
 counter = collections.Counter()
 for dirpath, dirnames, filenames in os.walk(annotated_dir):
     for filename in filenames:
